@@ -6,10 +6,18 @@
                 <style> header {background: linen;}</style>
         </header>
         <link rel="stylesheet" type="text/css"href="stylesheet.css">
-        
+        <style>body
+        { background-color:linen;}
+
+        h1 {
+                font-style: italic
+        }
+                </style>
+                
 <title>Contact Us</title>
 </head>
-<center><h1>Pizza Place</h1></center>
+
+<center><h1>Pizza Place</h1></center></style>
 <hr>
 <a href="index.html">Home</a>
 <a href="menu.html">Menu</a>
@@ -20,19 +28,18 @@
          <div class="warning">
                 The following errors occured:
         </div>
-         <p>class="warning">First Name is required.</p>
+         <div style="color:red;">First Name is required.</div>
              <label id="fullNameLabel" for="fullName"> Full Name:</label>
              <input id="fullName" name="fullName" type="text"/>
-            <p>class="warning">Email is required.</p>
+            <div style="color:red;">Email is required.</div>
             <label id="EmailLabel" for="Email"> Email Address:</label>
             <input id="Email" name="Email" type="text" />
-    <p>class="warning">Phone Number is required.</p>
+    <div style="color:red;">Phone Number is required.</div>
     <label id="PhoneLabel" for="Phone">Phone Number:</label>
             <input id="Phone" name="Phone" type="text" />
-     
-    </center>
-    </form
-       form action="contact.html" method="POST"> <center>
+        </center>
+        </form>
+      <center>
         <p><text>Reason for Inquiry:</text> <select name="reason for inquiry">
         <option value="Catering">Catering</option>
         <option value="Private Party">Private Party</option>
